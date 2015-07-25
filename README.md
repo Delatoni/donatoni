@@ -1,13 +1,12 @@
 # Donatoni.io
-My personal website.
+My personal portfolio & blog website.
 
 Built with:
   * Jekyll
-  * SCSS
+  * SASS
 
 Includes:
   * [Bower](http://bower.io/)
   * [Susy](http://susy.oddbird.net/)
-  * [SASS MQ](https://github.com/sass-mq/sass-mq)
+  * [Breakpoint](https://github.com/at-import/breakpoint)
   * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-  * [Sidr](http://www.berriart.com/sidr/)
