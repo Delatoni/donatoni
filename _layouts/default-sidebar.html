@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include doc_head.html %}
+    <body class="{% if page.class %}{{ page.class }}{% else %} {% endif %}">
+        <header>
+            {% include header.html %}
+        </header>
+
+        <main>
+            {{ content }}
+        </main>
+
+        <!--
+        <aside>
+            {% include sidebar.html %}
+        </aside>
+        -->
+
+        <footer>
+            {% include footer.html %}
+        </footer>
+  </body>
+</html>
