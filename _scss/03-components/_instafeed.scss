@@ -8,6 +8,9 @@
         @include span(3 of 12);
         margin-bottom: 15px;
 
+        @extend %animated;
+        @extend %fadeIn;
+
         &:nth-child(4n) {
             @include last;
         }

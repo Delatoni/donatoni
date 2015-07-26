@@ -3,22 +3,31 @@
 
 /* ====== Image Path ====== */
 
-$base-image-path: "/assets/images/";
+$base-image-path: "/images/";
+
+/* ====== Color Palette ====== */
+
+$primary-color-dark: #FFA000;
+$primary-color: #FFC107;
+$primary-color-light: #FFECB3;
+$primary-color-text: #212121;
+$accent-color: #03A9F4;
+$primary-text-color: #212121;
+$secondary-text-color:#727272;
+$divider-color: #B6B6B6;
 
 /* ====== Base Settings ====== */
 
 /* Base (Global) */
-$base-font-color: #272727;
 $base-font-size: 16px;
 $base-font-family: "josefin_sansregular";
 
 /* Base (Headings) */
-$heading-font-color: #000;
 $heading-font-family: "josefin_sanssemibold";
 
 /* Base (Links) */
-$base-link-color: #1896df;
-$base-link-hover-color: #e96a2e;
+$base-link-color: #03A9F4;
+$base-link-hover-color: #03A9F4;
 
 /* Base (Background Color) */
 $base-bg-color: #fff;

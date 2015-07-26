@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    color: $base-font-color;
+    color: $primary-text-color;
     font-family: $base-font-family;
     -webkit-font-smoothing: antialiased;
 }
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: $heading-font-color;
+    color: $primary-text-color;
     font-family: $heading-font-family;
     margin: 0;
 }

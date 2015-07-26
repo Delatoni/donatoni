@@ -20,6 +20,8 @@
     "compass-breakpoint": "compass-breakpoint#latest",
     "Font-Awesome": "Font-Awesome#latest",
     "magnific-popup": "magnific-popup#latest",
-    "instafeed.js": "instafeed.js#latest"
+    "instafeed.js": "instafeed.js#latest",
+    "animate.css": "animate.css#latest",
+    "wow": "wow#latest"
   }
 }
