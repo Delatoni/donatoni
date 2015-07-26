@@ -1,0 +1,60 @@
+/* Jquery Sidebar
+   ========================================================================== */
+
+.sidebar {
+
+    /* General Settings */
+    padding: 40px;
+    background-color: $primary-color;
+    position: fixed;
+
+    /* Left Sidebar */
+    &.left {
+        @include span(3 of 12 last);
+        bottom: 0;
+        left: 0;
+        top: 0;
+
+        @include breakpoint($mobile) {
+            @include span(8 of 12 last);
+        }
+    }
+
+    /* Right Sidebar */
+    &.right {
+        @include span(3 of 12 last);
+        bottom: 0;
+        right: 0;
+        top: 0;
+
+        @include breakpoint($mobile) {
+            @include span(8 of 12 last);
+        }
+    }
+
+    /* Bottom Bar */
+    &.bottom {
+        height: 120px;
+        @include span(12 of 12);
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        @include breakpoint($mobile) {
+            height: 120px;
+        }
+    }
+
+    /* Top Bar */
+    &.top {
+        height: 120px;
+        @include span(12 of 12);
+        right: 0;
+        left: 0;
+        top: 0;
+
+        @include breakpoint($mobile) {
+            height: 120px;
+        }
+    }
+}
