@@ -3,6 +3,10 @@
 
 /* ====== Global Settings ====== */
 
+* {
+    outline: none;
+}
+
 body {
     background-color: $base-bg-color;
 }

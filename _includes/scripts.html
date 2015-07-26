@@ -1,8 +1,34 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!--<script src="{{ site.baseurl }}/js/vendor/.js"></script>-->
+<script src="{{ site.baseurl }}/js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/instafeed.min.js"></script>
 
+{% raw %}
 <script>
 $(document).ready(function() {
 
+    /* Magnific Popup Code */
+    $('.image-link').magnificPopup({type:'image'});
+
+    $('#instafeed').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+    });
+
+    /* Instafeed Code */
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 47389409,
+        accessToken: '47389409.467ede5.0b5342ac65fa46818d7e61b80908dc33',
+        clientId: 'd6f66ebf999f43a18f9f02e06339e71e',
+        template: '<a href="{{image}}"><img src="{{image}}" /></a>',
+        resolution: 'standard_resolution',
+        limit: 8,
+    });
+    userFeed.run();
+    $('#load-more').on('click', function() {
+        userFeed.next();
+    });
+
 });
 </script>
+{% endraw %}

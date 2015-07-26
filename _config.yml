@@ -13,6 +13,7 @@ tagline: My personal website.
 email: dell@donatoni.io
 description:
 #baseurl: "http://donatoni.io"
+#baseurl: "http://127.0.0.1:4000"
 
 # Assets
 #

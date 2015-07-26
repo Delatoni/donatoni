@@ -18,6 +18,8 @@
   "dependencies": {
     "sass-susy": "susy#latest",
     "compass-breakpoint": "compass-breakpoint#latest",
-    "Font-Awesome": "Font-Awesome#latest"
+    "Font-Awesome": "Font-Awesome#latest",
+    "magnific-popup": "magnific-popup#latest",
+    "instafeed.js": "instafeed.js#latest"
   }
 }
