@@ -16,3 +16,38 @@
         }
     }
 }
+
+.sidebar {
+    background-color: $primary-color;
+    position: fixed;
+
+    &.left {
+        @include span(3 of 12 last);
+        bottom: 0;
+        left: 0;
+        top: 0;
+    }
+
+    &.right {
+        @include span(3 of 12 last);
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+
+    &.bottom {
+        height: 120px;
+        @include span(12 of 12);
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    &.top {
+        height: 120px;
+        @include span(12 of 12);
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+}
