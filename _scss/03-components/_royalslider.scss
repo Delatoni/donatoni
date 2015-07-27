@@ -4,4 +4,5 @@
 .royalSlider {
    height: auto;
    @include span(12 of 12);
+   background-color: $primary-color-text;
 }

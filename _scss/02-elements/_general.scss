@@ -17,6 +17,7 @@ body {
 }
 
 section {
+    @include span(12 of 12);
     position: relative;
 }
 

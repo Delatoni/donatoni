@@ -41,6 +41,10 @@ $desktop: max-width 1020px;
 
 /* ====== Container Settings ====== */
 
+.full-width {
+    @include span(12 of 12);
+}
+
 .wrapper {
     @include container;
 

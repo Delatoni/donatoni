@@ -102,8 +102,14 @@ $(document).ready(function() {
     resize();
 
     var rs = $('.royalSlider--fill').royalSlider({
+        usePreloader: true,
         autoScaleSlider: false,
         imageScaleMode: 'fill',
+        slidesSpacing: 0,
+        arrowsNav: true,
+        navigateByClick: true,
+        controlNavigation: 'bullets',
+        arrowsNavAutoHide: false,
     }).data('royalSlider');
 
 });
