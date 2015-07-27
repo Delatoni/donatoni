@@ -90,4 +90,20 @@ $(document).ready(function() {
     );
     wow.init();
 
+    /* Royal Slider Code */
+    var resize = function() {
+        $('.royalSlider--fill').css({
+            width: $(window).width(),
+            height: $(window).height()
+        });
+    };
+
+    $(window).on('resize', resize);
+    resize();
+
+    var rs = $('.royalSlider--fill').royalSlider({
+        autoScaleSlider: false,
+        imageScaleMode: 'fill',
+    }).data('royalSlider');
+
 });

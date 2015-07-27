@@ -2,7 +2,12 @@
    ========================================================================== */
 
 header {
+    @include span(12 of 12);
     @include rem(padding, 20px 0);
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
 
     .header__left {
 

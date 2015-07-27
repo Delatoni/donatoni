@@ -7,8 +7,16 @@
     outline: none;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: $base-bg-color;
+    position: relative;
+}
+
+section {
     position: relative;
 }
 
