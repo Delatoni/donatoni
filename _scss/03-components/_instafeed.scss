@@ -1,18 +1,39 @@
 /* Instafeed
    ========================================================================== */
 
+/* ====== Layout ====== */
+
 #instafeed {
     @include span(12 of 12);
 
     a {
         @include span(3 of 12);
-        margin-bottom: 15px;
-
-        @extend %animated;
-        @extend %fadeIn;
 
         &:nth-child(4n) {
             @include last;
         }
     }
 }
+
+/* ====== Styling ====== */
+
+#instafeed {
+
+    a {
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        padding: 10px;
+
+        @extend %animated;
+        @extend %fadeIn;
+    }
+}
+
+button {
+        color: $font-white;
+        text-align: center;
+        background-color: #8db354;
+        padding: 6px 25px;
+        margin: 0 auto;
+        border: none;
+    }

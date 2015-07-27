@@ -5,6 +5,8 @@
 
 * {
     outline: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 html, body {
@@ -30,11 +32,11 @@ img {
 /* ====== Text Highlight Color ====== */
 
 ::selection {
-    background: #e96a2e;
+    background: #8db354;
 }
 
 ::-moz-selection {
-    background: #e96a2e;
+    background: #8db354;
 }
 
 /* ====== Show / Hide Devices  ====== */
