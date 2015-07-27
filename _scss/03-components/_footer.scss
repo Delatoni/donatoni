@@ -10,12 +10,20 @@ footer {
 
     .footer__left {
         @include span(6 of 12);
+
+        @include breakpoint($mobile) {
+            @include span(12 of 12);
+        }
     }
 
     /* Social Links */
 
     .footer__right {
         @include span(6 of 12 last);
+
+        @include breakpoint($mobile) {
+            @include span(12 of 12);
+        }
     }
 }
 
@@ -66,12 +74,20 @@ footer {
 
         .footer__left {
 
+            @include breakpoint($mobile) {
+                text-align: center;
+                margin-bottom: 15px;
+            }
         }
 
         /* Social Links */
 
         .footer__right {
             text-align: right;
+
+            @include breakpoint($mobile) {
+                text-align: center;
+            }
 
             ul {
                 list-style: none;
