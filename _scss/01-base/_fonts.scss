@@ -7,6 +7,17 @@
 
 @fa-font-path:   "../../vendor/Font-Awesome/font";
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../../vendor/Font-Awesome/fonts/fontawesome-webfont.eot?v=4.1.0'); /* IE9 Compat Modes */
+  src: url('../../vendor/Font-Awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../vendor/Font-Awesome/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), /* Modern Browsers */
+       url('../../vendor/Font-Awesome/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), /* Safari, Android, iOS */
+       url('../../vendor/Font-Awesome/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');/* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*
 Josefin Sans
 font-family: 'Josefin Sans', sans-serif;
